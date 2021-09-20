@@ -230,6 +230,10 @@ form{
     margin: 10px 10px;
 }
 
+.img-veru{
+    width: 30%;
+}
+
 
 @media (max-width: 450px) {
     /* .img-ini{
@@ -243,5 +247,27 @@ form{
 
     .titulo-inicio{
         font-size: 22px;
+    }
+
+    .btn-img{ 
+        width: 80%;
+        margin: 0 15px;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .img-ini{
+        width: 100%;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+@media  (max-width: 600px) {
+    .btn-img{ 
+        width: 80%;
+        margin: 0 15px;
+        padding: 0;
+        display: inline-block;
     }
 }

@@ -216,8 +216,16 @@ form{
 }
 
 .fal{
+    background: none;
     font-size: 30px;
     color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.fal:hover{
+    color: rgb(11, 235, 29);
 }
 
 .v-s{

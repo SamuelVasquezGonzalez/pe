@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navegador{
@@ -252,6 +253,14 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+li{
+    margin: 10px 0;
 }
 
 @media (max-width: 450px) {
